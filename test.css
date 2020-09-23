@@ -1,0 +1,361 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+header ul{
+	list-style: none;
+	display:inline-block;
+	margin: 20px;
+}
+header h1 img{
+	width:280px;
+	
+}
+
+
+header{
+	text-align:right;
+	height:100px;
+}
+
+header ul li{
+	display:inline-block;
+	text-align:left;
+}
+
+header h1{
+	position:absolute;
+	top:7px;
+}
+
+header ul li h2{
+	font-size:13px;
+	font-weight:normal;
+	color: #6c757d;
+	margin-bottom:10px;
+}
+
+header ul li p{
+	font-size:28px;
+	font-weight:bold;
+	color: #6c757d;
+}
+header ul li a{
+	font-size:22px;
+	color:#fff;
+	text-decoration:none;
+	background-color:#6c757d;
+	display:inline-block;
+	height:48px;
+	line-height:48px;
+	padding:0 15px;
+	border-radius:5px;
+}
+
+header ul li a:hover{
+	color:#fff;
+	background-color:#343a40;
+}
+
+.inner{
+	width:1110px;
+	margin:0 auto;
+	position:relative;
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+nav{
+	background-color:#343A40;
+	text-align:center;
+}
+
+nav ul{
+	width:1110px;
+}
+
+nav ul li a{
+	height:55px;
+	line-height:55px;
+	display:inline-block;
+	text-decoration:none;
+	padding:0 35px;
+	color: rgba(255,255,255,.5);
+}
+
+nav ul li a:hover{
+	color:#fff;
+
+}
+.bgi{
+	height:600px;
+	background-color:#ff0;
+	background-image:url(top-image.jpg);
+}
+
+.bgi-text{
+	width:560px;
+	height:300px;
+	background-color:#fff;
+	border-radius:5px;
+	border:1px solid rgba(0,0,0,.125);
+	padding:30px 15px;
+	box-sizing:border-box;
+	float: right;
+	margin-top:60px;
+}
+
+.bgi-text h2{
+	font-size:55px;
+	font-weight:300;
+	margin-bottom:15px;
+}
+
+.bgi-text p{
+	font-size:20px;
+	font-weight:300;
+	line-height:1.5;
+	margin-bottom:30px;
+
+}
+
+.bgi-text .bgi-text2{
+	font-size:14px;
+}
+
+.news-section{
+	width:1110px;
+	margin:0 auto;
+	margin-bottom:80px;
+}
+
+.news{
+	display:flex;
+	align-items: flex-end;
+	margin-top:50px;
+	margin-bottom:25px;
+}
+.news h2{
+	font-size:30px;
+	font-weight:normal;
+	border-left:solid 6px #AAAAAA;
+	padding:10px;
+}
+
+.news p{
+	line-height:2;
+}
+
+section span{
+	background-color:#6c757d;
+	color:#fff;
+	padding:10px 5px 10px 5px;
+	border-radius:5px;
+	margin-right:15px;
+}
+
+.news-section div{
+	display:flex;
+	align-items: center;
+	margin-bottom:15px
+}
+
+section div h3{
+	font-size: 19px;
+	margin-right:5px;
+	font-weight: 500;
+	
+}
+
+.sp-lnk p{
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.message-section{
+	background-color:#F8F9FA;
+	height:475px;
+	width:100%;
+	display:inline-block;
+}
+
+.message{
+	display:inline-block;
+	position:relative;
+}
+
+.message-inner{
+	display:inline-block;
+	height:300px;
+	width:640px;
+	background-color:#fff;
+	position:absolute;
+	left:400px;
+	top:130px;
+	opacity: 0.5;
+	padding: 48px;
+	box-sizing:border-box;
+	line-height:1.5;
+}
+
+.message-inner1{
+	padding-bottom:16px;
+}
+
+.img-message{
+	display:inline-block;
+	position:absolute;
+	left:970px;
+	top:50px;
+	border:1px solid #dee2e6;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.message h2{
+	font-size:30px;
+	left:400px;
+	width:600px;
+	position:absolute;
+	top:60px;
+}
+.Course-section{
+	width:1110px;
+	margin:0 auto;
+	box-sizing:border-box;
+}
+.Course{
+	display:flex;
+	align-items: flex-end;
+	margin-top:50px;
+}
+.Course h2{
+	font-size:30px;
+	font-weight:normal;
+	border-left:solid 6px #AAAAAA;
+	padding:10px;
+}
+
+.Course-item{
+	display:inline-block;
+	width:350px;
+	height:485px;
+	border:1px solid #dee2e6;
+	border-radius:5px;
+	margin:7px 7px;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.Course-item h3{
+	text-align: center;
+	font-size:28px;
+	margin-bottom:28px;
+}
+
+.Course-item p{
+	text-align: center;
+	line-height:1.5;
+	margin:0 20px 0 20px;
+}
